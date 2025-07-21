@@ -1,0 +1,28 @@
+{
+  "name": "deezstream-nodejs-example",
+  "version": "1.0.0",
+  "description": "A minimal example for using the @deezstream/grpc-client.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "solana",
+    "deezstream",
+    "example"
+  ],
+  "author": "deezstream",
+  "license": "MIT",
+  "dependencies": {
+    "@deezstream/grpc-client": "^1.0.0",
+    "bs58": "^5.0.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
